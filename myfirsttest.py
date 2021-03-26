@@ -6,9 +6,11 @@ import streamlit as st
 from datetime import date
 
 import yfinance as yf
-import fbprophet
-from fbprophet import Prophet
-from fbprophet.plot import plot_plotly
+import fbprophet as fbp
+#from fbprophet import Prophet
+from fbp import Prophet
+#from fbprophet.plot import plot_plotly
+from fbp.plot import plot_plotly
 from plotly import graph_objs as go
 
 Start = "2015-01-05"
