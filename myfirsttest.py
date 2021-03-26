@@ -6,11 +6,8 @@ import streamlit as st
 from datetime import date
 
 import yfinance as yf
-import fbprophet as fbp
-#from fbprophet import Prophet
-from fbp import Prophet
-#from fbprophet.plot import plot_plotly
-from fbp.plot import plot_plotly
+from fbprophet import Prophet
+from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 
 Start = "2015-01-05"
@@ -20,7 +17,7 @@ st.title("Stock Prediction App")
 
 #stocks = ("AAPL", "GOOG", "MSFT", "AMZN", "TSLA", "BTC-USD")
 
-stocks = (0)
+stocks = ("Ticker?")
 selected_stocks = stocks
 selected_stocks = st.text_input("Select TICKER for prediction", stocks)
 
