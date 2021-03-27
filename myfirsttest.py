@@ -17,7 +17,7 @@ st.title("Stock Prediction App")
 
 #stocks = ("AAPL", "GOOG", "MSFT", "AMZN", "TSLA", "BTC-USD")
 
-stocks = ("Ticker?")
+stocks = ("btc-usd")
 selected_stocks = stocks
 selected_stocks = st.text_input("Select TICKER for prediction", stocks)
 
