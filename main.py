@@ -11,14 +11,15 @@ model_training = st.beta_container()
 
 with header:
 	st.title('Welcome to my awesome Stock Prediction project')
-	st.text('This project attempts to predict the Pice of a selected Stock ...')  
+	st.text('This project attempts to predict the Pice of a selected Ticker...')  
 
 
 with dataset:
 	st.header('Raw dataset Staring from: 2015-01-05')
 	st.text('The raw data sourced from Yahoo Finance website...!')
+	st.text('For AU Tickers type ".au" after the Ticker ie: "bhp.au"...')
+	st.text('For Bitcoin or other cryptos type "-usd" ie: "btc-usd"...!') 
                 
-
 Start = "2015-01-05"
 Today = date.today().strftime("%Y-%m-%d")
 
