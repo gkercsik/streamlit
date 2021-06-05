@@ -14,7 +14,7 @@ model_training = st.beta_container()
 
 with header:
 	st.title('Welcome to my awesome Stock Prediction project')
-	st.text('This project attempts to predict the Pice of a selected Stock ...')  
+	st.text('This project attempts to predict the Price of the selected Stock ...')  
 
 
 with dataset:
